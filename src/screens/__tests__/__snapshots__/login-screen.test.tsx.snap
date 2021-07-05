@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginScreen should render 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "elevation": 5,
+      "flex": 1,
+      "justifyContent": "flex-start",
+      "paddingTop": "50%",
+    }
+  }
+>
+  <ActivityIndicator
+    animating={false}
+    color="#BA55D3"
+    hidesWhenStopped={true}
+    size="large"
+  />
+  <Text
+    style={
+      Object {
+        "fontSize": 30,
+        "fontWeight": "600",
+        "marginBottom": 50,
+        "marginTop": 50,
+      }
+    }
+  >
+    Login
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    editable={true}
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    placeholder="Username"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "borderColor": "#E3E3E3",
+        "borderWidth": 1,
+        "fontSize": 20,
+        "margin": 5,
+        "padding": 5,
+        "textAlign": "left",
+        "width": "80%",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCompleteType="password"
+    editable={true}
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    placeholder="Password"
+    rejectResponderTermination={true}
+    secureTextEntry={true}
+    style={
+      Object {
+        "borderColor": "#E3E3E3",
+        "borderWidth": 1,
+        "fontSize": 20,
+        "margin": 5,
+        "padding": 5,
+        "textAlign": "left",
+        "width": "80%",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#007AFF",
+        "borderRadius": 20,
+        "color": "#FFFFFF",
+        "margin": 10,
+        "padding": 5,
+        "width": "80%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FFF",
+          "fontSize": 20,
+          "textAlign": "center",
+        }
+      }
+      testID="LoginButton"
+    >
+      LOGIN
+    </Text>
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "red",
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;
